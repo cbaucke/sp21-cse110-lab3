@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<htm lang="en"l>
+    <head>
+        <title>Chris Baucke's Journal</title>
+        <meta author="Chris Baucke">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1>Chris Baucke's Journal</h1>
+            <hr>
+        </header>
+
+        <main>
+            <section>
+                <h2>Journal Entries</h2>
+                <div>
+                    <nav>
+                        <details>
+                            <summary>Table of Contents</summary>
+                            <ul>
+                                <li><a href="#4/11/21">4/11/21</a></li>
+                                <li><a href="#4/10/21">4/10/21</a></li>
+                                <li><a href="#4/9/21">4/9/21</a></li>
+                            </ul>
+                        </details>
+                    </nav>
+                </div>
+            </section>
+
+            <section>
+                <div class="entry">
+                    <a id="4/11/21"></a>
+                    <h3>4/11/21 - <i>Lots of homework</i></h3>
+                    <p>I have <em>a lot</em> of work to get done today:</p>
+                    <ol>
+                        <li>Read this week's handout for PHIL 28</li>
+                        <li>Take a quiz for PHIL 28</li>
+                        <li>Watch the latest lecture for ECON 120B</li>
+                        <li>Complete a problem set for ECON 120B</li>
+                        <li>Do this lab</li>
+                        <li>Attend my CSE 110 group's first meeting</li>
+                        <li>Write down everything I need to do next week</li>
+                    </ol>
+                </div>
+
+                <div class="entry"> 
+                    <a id="4/10/21"></a>
+                    <h3>4/10/21 - <i>Relaxing Weekend</i></h3>
+                    <p>Today I had to take a quiz, but for the most part had an uneventful day. <br>
+                        Here is a picture I took of my dog enjoying the weekend:</p>
+                    <img src="Grace2.jpg" alt="" width=400>
+                    <p>I also listened to a lot of music. Here is one of my favorite songs I've been listening to lately, called <i>Poster Boy</i> by Unlike Pluto: <br></lately:br></p>
+                    <audio controls src="Unlike Pluto - Poster Boy.mp3"></audio>
+                </div>
+
+                <div class="entry">
+                    <a id="4/9/21"></a>
+                    <h3>4/9/21 - <i>Remebering Campus</i></h3>
+                    <p>It's been a little over 1 year and 1 month since I was last on campus. Here is a video I took the last time I was in San Diego:</p>
+                    <video controls width=700 src="seagulls.mp4"></video>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <hr>
+            <form>
+                <fieldset>
+                    <h2>Create an Entry</h2>
+                    <label for="title">Title: </label>
+                    <input type="text" id="title">
+                    <br>
+                    <br>
+
+                    <label for="date">Date: </label>
+                    <input type="date" id="date">
+                    <br>
+                    <br>
+
+                    <label for="check">Allow comments (<b>Only applies if public</b>)</label>
+                    <input type="checkbox" id="comments">
+                    <br>
+                    <br>
+
+                    <label for="private">Private post</label>
+                    <input type="radio" id="private" name="privacy">
+                    <br>
+
+                    <label for="public">Public post</label>
+                    <input type="radio" id="public" name="privacy">
+                    <br>
+                    <br>
+
+                    <textarea name="entryText" id="entryText" cols="60" rows="10"></textarea>
+                    <br>
+                    <br>
+
+                    <label for="authorChoice">Author: </label>
+                    <input list="author" id="authorChoice">
+                    <datalist id="author">
+                        <option value="Chris Baucke"></option>
+                    </datalist>
+                    <br>
+                    <br>
+
+                    <label for="entryType">Category: </label>
+                    <select name="entryType" id="entryType">
+                        <option value="">--Select an option--</option>
+                        <option value="">School</option>
+                        <option value="">Travel</option>
+                        <option value="">Misc</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <button>Create</button>
+                </fieldset>
+            </form>
+            <br>
+            <strong>Created by Chris Baucke</strong>
+        </footer>
+    </body>
+</html>
