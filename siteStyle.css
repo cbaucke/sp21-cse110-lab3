@@ -78,13 +78,14 @@ a{
 }
 
 /*Style for third entry*/
-#thirdEntry{
-
+#thirdEntry video{
+    max-width: 80%;
+    padding-left: 8vw;
 }
 
-@media (min-width: 200px){
+@media (max-width: 599px){
     #thirdEntry video{
-        
+        min-width: 100px;
     }
 }
 
