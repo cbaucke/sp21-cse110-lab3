@@ -1,9 +1,10 @@
-/*Style for header, table of contents, and page background*/
-body{  
-    background-color: seashell;
-}
+/*Style for header and table of contents*/
 
 header{
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    top: 0px;
     background-color: rgb(167, 216, 193);
     padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -14,6 +15,7 @@ header{
 
 h2{
     margin-top: 3vh;
+    padding-top: 120px;
     text-align: center;
     text-decoration: underline;
 }
@@ -62,11 +64,28 @@ a{
 #secondEntry{
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#secondEntry img{
+    margin: auto;
+    max-width: 60vw;
+}
+
+#secondEntry p{
+    display: inline-block;
 }
 
 /*Style for third entry*/
 #thirdEntry{
 
+}
+
+@media (min-width: 200px){
+    #thirdEntry video{
+        
+    }
 }
 
 /*Style for entry creation form*/
