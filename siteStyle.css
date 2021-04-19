@@ -1,19 +1,24 @@
-/*Style for header and table of contents*/
+/*Style for header, table of contents, other general settings*/
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
 
 header{
     position: fixed;
     width: 100vw;
-    height: 100px;
+    height: 105px;
     top: 0px;
     background-color: rgb(167, 216, 193);
     padding-top: 10px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
-    text-align: center;
     color: #FFF;
 }
 
-h2{
+main h2{
     margin-top: 3vh;
     padding-top: 120px;
     text-align: center;
@@ -33,7 +38,7 @@ nav ul{
     border-radius: .5cm;
 }
 
-nav li{
+ul > li{
     padding: 15px 0px 15px 0px;
 }
 
@@ -42,12 +47,15 @@ a{
 }
 
 /*General style for all entries*/
+div[class]{
+    margin: 5vh .55in 5vh .55in;
+}
+
 .entry{
     border-style: solid;
     border-radius: .5cm;
     border-width: 2px;
     border-color: hsla(205, 100%, 15%, 100%);
-    margin: 5vh .55in 5vh .55in;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -60,6 +68,10 @@ a{
     display: block;
 }
 
+li + li{
+    padding-top: 6px;
+}
+
 /*Style for second entry*/
 #secondEntry{
     display: flex;
@@ -68,7 +80,7 @@ a{
     justify-content: center;
 }
 
-#secondEntry img{
+p ~ img{
     margin: auto;
     max-width: 60vw;
 }
@@ -91,10 +103,31 @@ a{
 
 /*Style for entry creation form*/
 form{
-    
+    max-width: 80%;
+    margin: auto;
+}
+
+form fieldset{
+    display: grid;
+    grid-template-columns: 70vw;
+    justify-content: center;
+    grid-row-gap: 10px;
+}
+
+button:hover{
+    color: darkblue;
+}
+
+button:active{
+    color: black;
 }
 
 /*Style for footer*/
 footer{
     margin-bottom: 2vh;
+}
+
+p.footing{
+    text-decoration: underline;
+    margin-left: 10vw;
 }

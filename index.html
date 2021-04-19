@@ -73,60 +73,62 @@
 
         <footer>
             <hr>
-            <form>
-                <fieldset>
-                    <h2>Create an Entry</h2>
-                    <label for="title">Title: </label>
-                    <input type="text" id="title">
-                    <br>
-                    <br>
+            <div>
+                <form>
+                    <fieldset>
+                        <h2>Create an Entry</h2>
+                        <label for="title">Title: </label>
+                        <input type="text" id="title">
+                        <br>
+                        <br>
 
-                    <label for="date">Date: </label>
-                    <input type="date" id="date">
-                    <br>
-                    <br>
+                        <label for="date">Date: </label>
+                        <input type="date" id="date">
+                        <br>
+                        <br>
 
-                    <label for="comments">Allow comments (<b>Only applies if public</b>)</label>
-                    <input type="checkbox" id="comments">
-                    <br>
-                    <br>
+                        <label for="comments">Allow comments (<b>Only applies if public</b>)</label>
+                        <input type="checkbox" id="comments">
+                        <br>
+                        <br>
 
-                    <label for="private">Private post</label>
-                    <input type="radio" id="private" name="privacy">
-                    <br>
+                        <label for="private">Private post</label>
+                        <input type="radio" id="private" name="privacy">
+                        <br>
 
-                    <label for="public">Public post</label>
-                    <input type="radio" id="public" name="privacy">
-                    <br>
-                    <br>
+                        <label for="public">Public post</label>
+                        <input type="radio" id="public" name="privacy">
+                        <br>
+                        <br>
 
-                    <textarea name="entryText" id="entryText" cols="60" rows="10"></textarea>
-                    <br>
-                    <br>
+                        <textarea name="entryText" id="entryText" cols="60" rows="10"></textarea>
+                        <br>
+                        <br>
 
-                    <label for="authorChoice">Author: </label>
-                    <input list="author" id="authorChoice">
-                    <datalist id="author">
-                        <option value="Chris Baucke"></option>
-                    </datalist>
-                    <br>
-                    <br>
+                        <label for="authorChoice">Author: </label>
+                        <input list="author" id="authorChoice">
+                        <datalist id="author">
+                            <option value="Chris Baucke"></option>
+                        </datalist>
+                        <br>
+                        <br>
 
-                    <label for="entryType">Category: </label>
-                    <select name="entryType" id="entryType">
-                        <option value="">--Select an option--</option>
-                        <option value="">School</option>
-                        <option value="">Travel</option>
-                        <option value="">Misc</option>
-                    </select>
-                    <br>
-                    <br>
+                        <label for="entryType">Category: </label>
+                        <select name="entryType" id="entryType">
+                            <option value="">--Select an option--</option>
+                            <option value="">School</option>
+                            <option value="">Travel</option>
+                            <option value="">Misc</option>
+                        </select>
+                        <br>
+                        <br>
 
-                    <button>Create</button>
-                </fieldset>
-            </form>
+                        <button>Create</button>
+                    </fieldset>
+                </form>
+            </div>
             <br>
-            <strong>Created by Chris Baucke</strong>
+            <p class="footing"><strong>Created by Chris Baucke</strong></p>
         </footer>
     </body>
 </html>
