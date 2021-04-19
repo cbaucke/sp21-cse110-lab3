@@ -1,0 +1,42 @@
+/*Style for header, table of contents, and page background*/
+body{  
+    background-color: seashell;
+}
+
+header{
+    background-color: rgb(167, 216, 193);
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #FFF;
+}
+
+h2{
+    margin-top: 3vh;
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 1.2em;
+}
+
+nav ul{
+    border-style: solid;
+    border-color: rgb(100, 100, 100, 80);
+    border-width: 2px;
+    border-radius: .5cm;
+}
+
+nav li{
+    padding: 15px 0px 15px 0px;
+}
+
+a{
+    color: #242eb8;
+}
+
+/*Style for first entry*/
