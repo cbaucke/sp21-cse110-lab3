@@ -1,9 +1,9 @@
 # Standup Notes for x/x/21
 
 ## \<Enter Name\>:
-- What I worked on yesterday:
+- What I worked on since the last standup:
   - \<Write here\>
 - What I am working on today:
   - \<Write here\>
-- Issues that are blocking me:
+- Issues:
   - \<Write here\>
