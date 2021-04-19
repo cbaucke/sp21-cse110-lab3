@@ -26,7 +26,7 @@ nav{
 
 nav ul{
     border-style: solid;
-    border-color: rgb(100, 100, 100, 80);
+    border-color: rgb(100, 100, 100, 60);
     border-width: 2px;
     border-radius: .5cm;
 }
@@ -39,4 +39,42 @@ a{
     color: #242eb8;
 }
 
+/*General style for all entries*/
+.entry{
+    border-style: solid;
+    border-radius: .5cm;
+    border-width: 2px;
+    border-color: hsla(205, 100%, 15%, 100%);
+    margin: 5vh .55in 5vh .55in;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: hsl(87, 34%, 71%);
+}
+
 /*Style for first entry*/
+#firstEntry{
+    position: static;
+    display: block;
+}
+
+/*Style for second entry*/
+#secondEntry{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Style for third entry*/
+#thirdEntry{
+
+}
+
+/*Style for entry creation form*/
+form{
+    
+}
+
+/*Style for footer*/
+footer{
+    margin-bottom: 2vh;
+}
